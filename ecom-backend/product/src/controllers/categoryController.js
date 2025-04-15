@@ -32,7 +32,7 @@ class CategoryController {
         } catch (error) {
             console.error('Get Categories Error:', error);
             res.status(500).json(
-                ApiResponse.send(500, null, 'Error fetching categories')
+                ApiResponse.send(500, null, 'Error fetching categories !!')
             );
         }
     }
